@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restoran</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
-    <header class="bg-[url('/img/header.png')] flex flex-col h-screen bg-no-repeat bg-cover">
+    <header class="bg-[url('./img/header.png')] flex flex-col h-screen bg-no-repeat bg-cover">
         <nav class="container mx-auto px-4  flex flex-wrap items-center py-4 ">
             <div class="flex-1 flex justify-between items-center">
                 <a href="#" class="text-xl"><img src="img/LOGO.png" alt=""></a>
@@ -33,12 +35,15 @@
                         <li><a class="md:p-4 py-3 px-0 block" href="#">МЕНЮ</a></li>
                         <li><a class="md:p-4 py-3 px-0 block" href="#">О НАС</a></li>
                         <li><a class="md:p-4 py-3 px-0 block md:mb-0 mb-2" href="#">БРОНЬ</a></li>
-                        <li class="border-r-2"><a class="md:p-4 py-3 px-0 block md:mb-0 mb-2" href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
-                        <li class="pl-4"><a class="md:px-0 pb-4 px-0 block md:mb-0 mb-2" href="#"><i class="fa-solid fa-phone m-0"></i> +998998999228</a>
-                        <p>Свяжитесь с нами для <br>
-                            бронирования</p>
+                        <li class="border-r-2"><a class="md:p-4 py-3 px-0 block md:mb-0 mb-2" href="#"><i
+                                    class="fa-solid fa-cart-shopping"></i></a></li>
+                        <li class="pl-4"><a class="md:px-0 pb-4 px-0 block md:mb-0 mb-2" href="#"><i
+                                    class="fa-solid fa-phone m-0"></i> +998998999228</a>
+                            <p>Свяжитесь с нами для <br>
+                                бронирования</p>
                         </li>
-                        <li><a class="md:p-4 py-3 px-0 block md:mb-0 mb-2 bg-[#FF7400] ml-6 md:ml-8 text-white font-bold" href="#">ЗАКАЗ СТОЛИКА</a></li>
+                        <li><a class="p-3 md:p-4 block md:mb-0 mb-2 bg-[#FF7400] ml-6 md:ml-8 text-white font-bold"
+                                href="#">ЗАКАЗ СТОЛИКА</a></li>
                     </ul>
                 </nav>
             </div>
@@ -49,10 +54,47 @@
                 <h2 class="text-[#D67E35] text-2xl sm:text:[35px] md:text-[50px]">Добро пожаловать в</h2>
                 <h1 class="text-[#D67E35] my-3 md:my-5 text-4xl sm:text:[55px] md:text-[80px]">Наш ресторан</h1>
                 <h3 class="text-[18px] mb-4 md:mb-[21px]">ДОМ ЛУЧШЕЙ ЕДЫ</h3>
-                <a class="hover:opacity-[0.8] md:p-4 py-3 px-0 inline-block md:mb-0 mb-2 bg-[#FF7400] ml-6 md:ml-8 text-white font-bold" href="#">ЗАКАЗ СТОЛИКА</a>
+                <a class="hover:opacity-[0.8] p-3 md:p-4  inline-block md:mb-0 mb-2 bg-[#FF7400] ml-6 md:ml-8 text-white font-bold"
+                    href="#">ЗАКАЗ СТОЛИКА</a>
             </div>
         </div>
     </header>
+
+    <main>
+        <section>
+            <div class="max-w-[1138px] w-full mx-auto mb-[150px]">
+                <div class="flex flex-wrap lg:flex-nowrap gap-[30px] justify-center lg:justify-between items-center -mt-32">
+                    <div
+                        class="shadow-2xl bg-white max-w-[350px] w-full flex flex-col items-center  pt-12 pb-4 px-[15px] text-center">
+                        <img src="img/qopqoq.png" alt="">
+                        <h3 class="text-[26px] text-[#2C2C2C] mt-5 mb-1">Магическая <span
+                                class="text-[#BC9060]">Атмосфера</span>
+                        </h3>
+                        <p class="text-[#656363] text-[26px]">В нашем заведении царит магическая атмосфера
+                            наполненная вкусными ароматами</p>
+                    </div>
+                    <div
+                        class="shadow-2xl bg-white max-w-[350px] w-full flex flex-col items-center  pt-12 pb-4 px-[15px] text-center">
+                        <img src="img/qopqoq.png" alt="">
+                        <h3 class="text-[26px] text-[#2C2C2C] mt-5 mb-1">Магическая <span
+                                class="text-[#BC9060]">Атмосфера</span>
+                        </h3>
+                        <p class="text-[#656363] text-[26px]">В нашем заведении царит магическая атмосфера
+                            наполненная вкусными ароматами</p>
+                    </div>
+                    <div
+                        class="bg-white shadow-2xl max-w-[350px] w-full flex flex-col items-center  pt-12 pb-4 px-[15px] text-center">
+                        <img src="img/qopqoq.png" alt="">
+                        <h3 class="text-[26px] text-[#2C2C2C] mt-5 mb-1">Магическая <span
+                                class="text-[#BC9060]">Атмосфера</span>
+                        </h3>
+                        <p class="text-[#656363] text-[26px]">В нашем заведении царит магическая атмосфера
+                            наполненная вкусными ароматами</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
 </body>
 
